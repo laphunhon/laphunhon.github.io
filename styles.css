@@ -1,0 +1,140 @@
+* {
+	font-family: "sans-serif";
+}
+#allPage{
+	background-color: blanchedalmond;
+}
+
+#topPage {	
+	border-radius:15px;	
+	border: 4px solid rgb(255, 91, 32);
+	background-color: coral;	
+}
+
+#midPage {
+	
+	display: flex;	
+	width: 100%;
+}
+
+#midP_left {
+	border-radius:15px;	
+	margin-right: 5px;
+	display: inline-block;
+	width: 30%;	
+	float: left;	
+	border: 4px solid #f43efb;
+	background-color: #f678fa;
+	
+}
+
+#t3{	
+	padding-top: 50%;
+}
+#myInfor>p>img{
+	border: none;	
+  	max-width: 40%;
+	border-radius:25px;	
+}
+
+#myInfor>a>img{
+	border-radius:25px;	
+	max-height: 70px;
+  	max-width: 30%;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	transform-origin: center;
+	margin-bottom: 20px;
+}
+#myInfor>img:hover {	
+	animation-name: rotate;
+}
+@keyframes rotate {
+	100% { transform: rotate(360deg); }
+}
+
+#midP_right {
+	display: inline-block;
+	width: 70%;	
+	height:70%;
+	float: right;
+}
+
+#hobby {
+	border-radius:15px;	
+	border: 4px solid #8df5d0;
+	background-color: #c9fdea;
+	padding: 5px;	
+
+	
+}
+#nestList {
+	border-radius:15px;	
+	margin-top: 5px;
+	border: 4px solid #4df7f1;
+	background-color: #96faf7;
+	padding: 5px;	
+
+}
+.hoverLink:hover{
+	color: red;
+}
+#favoriteQ {
+	border-radius:15px;	
+	margin-top: 5px;
+	border: 4px solid #31a6ff;
+	background-color: #65b9fa;
+	padding: 5px;	
+	
+}
+#interestingW {
+	border-radius:15px;	
+	margin-top: 5px;
+	border: 4px solid rgb(41, 106, 227);
+	background-color: cornflowerblue;
+	padding: 5px;	
+	
+}
+#prAs {
+	border-radius:15px;	
+	margin-top: 5px;
+	border: 4px solid rgb(12, 139, 12);
+	background-color: forestgreen;
+	padding: 5px;	
+	
+}
+
+h1,
+h2,
+#midP_left{
+	text-align: center;	
+}
+
+
+table {
+	
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border: none;
+}
+
+th,
+td {	
+	text-align: center;
+	padding: 16px;
+}
+
+tr:nth-child(1) {
+	background-color: red;
+}
+
+tr:nth-child(3n+2) {
+	background-color: rgb(220, 249, 74);
+}
+tr:nth-child(3n+3) {
+	background-color: rgb(249, 168, 76);
+}
+tr:nth-child(3n+4) {
+	background-color: rgb(244, 75, 210);
+}
